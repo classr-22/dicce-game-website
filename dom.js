@@ -23,3 +23,8 @@ else if(randomno2==4)
 document.querySelector(".img2").src="https://raw.githubusercontent.com/AhmedAdham2018/Dicee-web-app/e90fa5ddd767655872b4a3d4fde9dfaa5a7ed20b/images/dice4.png";
 else 
 document.querySelector(".img2").src="https://raw.githubusercontent.com/AhmedAdham2018/Dicee-web-app/e90fa5ddd767655872b4a3d4fde9dfaa5a7ed20b/images/dice5.png";
+
+if(randomno1>randomno2)
+document.querySelector("h1").innerHTML=("player1 wins");
+else
+document.querySelector("h1").innerHTML=("player2 wins");
